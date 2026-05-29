@@ -1,16 +1,57 @@
-# React + Vite
+# LivrExpress 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LivrExpress est une landing page cinématographique, haute-fidélité et "Pixel Perfect" conçue pour un service de livraison rapide de colis (en 2 heures) à Dakar, au Sénégal.
 
-Currently, two official plugins are available:
+## ✨ Fonctionnalités
+- **Design Cinématographique & Premium** : Expérience utilisateur immersive avec des animations fluides.
+- **Formulaire de Devis Rapide** : Demande d'estimation et planification de livraison multi-étapes.
+- **Design "Signal Brutaliste" / "Editorial"** : Interface de pointe avec un overlay de bruit subtil et des composants magnétiques.
+- **Micro-Interactions avancées** : Éléments interactifs conçus pour offrir une sensation de retour tactile "software".
+- **Entièrement Responsive** : Optimisée pour le Mobile-First, assurant une navigation parfaite sur tous les appareils (smartphone, tablette, desktop).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Stack Technique
+- **Framework** : [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Style** : [Tailwind CSS v3](https://tailwindcss.com/)
+- **Animations** : [GSAP 3](https://gsap.com/) (avec ScrollTrigger)
+- **Icônes** : [Lucide React](https://lucide.dev/)
+- **Typographie** : Polices Google Fonts importées dynamiquement.
 
-## React Compiler
+## 🚀 Démarrage Rapide
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prérequis
+Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
 
-## Expanding the ESLint configuration
+### Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Cloner le dépôt :
+```bash
+git clone https://github.com/ndourmouhammad/LivrExpress.git
+cd LivrExpress
+```
+
+2. Installer les dépendances :
+```bash
+npm install
+```
+
+3. Lancer le serveur de développement :
+```bash
+npm run dev
+```
+
+4. Ouvrir [http://localhost:5173](http://localhost:5173) dans le navigateur.
+
+## 📦 Scripts Disponibles
+
+- `npm run dev` : Lance l'application en mode développement avec Hot Module Replacement (HMR).
+- `npm run build` : Compile l'application pour la production dans le dossier `dist`.
+- `npm run preview` : Lance un serveur web local pour prévisualiser la version de production.
+
+## 🎨 Philosophie de Design
+Chaque section de l'interface a été méticuleusement conçue :
+- **L'Île Flottante** (Navbar) pour une navigation sans obstruction.
+- **Artefacts Fonctionnels** pour l'interaction avec le service.
+- **Archive Empilée Sticky** pour afficher le protocole de livraison de manière fluide.
+
+---
+*Conçu avec attention aux détails pour offrir la meilleure expérience digitale.*
