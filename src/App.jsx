@@ -370,8 +370,8 @@ const Philosophy = () => {
     <section id="manifesto" ref={containerRef} className="relative py-24 md:py-40 px-6 md:px-16 bg-primary overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <img 
-          src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2000&auto=format&fit=crop" 
-          alt="Texture" 
+          src="/manifeste_bg.png" 
+          alt="Livraison Dakar de Nuit" 
           className="w-full h-full object-cover"
         />
       </div>
